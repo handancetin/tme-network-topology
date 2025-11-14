@@ -1,0 +1,22 @@
+# Ignore all files in figures folder
+figures/*
+# Keep the directory itself
+!figures/.gitkeep
+
+# Ignore all files in matlab output folders
+matlab/output/samples/*
+!matlab/output/samples/.gitkeep
+
+matlab/output/graphs/*
+!matlab/output/graphs/.gitkeep
+
+matlab/scripts/*.mat 
+!matlab/scripts/.gitkeep
+
+# Ignore Python cache
+python/__pycache__/
+python/__pycache__/*
+
+# Ignore all files in R output folder
+r/output_data/*
+!r/output_data/.gitkeep
